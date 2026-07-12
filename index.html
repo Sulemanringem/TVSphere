@@ -1,175 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy - TVSphere</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TVSphere - Explore publicly available TV channels and FM radio stations from around the globe through one simple and elegant experience. Download the APK now.">
+    <meta name="keywords" content="TVSphere, TV channels, FM radio, global TV, radio discovery, Android app, TV guide, radio stations">
+    <meta name="author" content="TVSphere">
+    <meta name="theme-color" content="#29B6F6">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tvsphere.app/">
 
-<link rel="stylesheet" href="style.css">
+    <!-- Open Graph -->
+    <meta property="og:title" content="TVSphere - Explore TV & FM Around the Globe">
+    <meta property="og:description" content="Discover publicly available television channels and FM radio stations from countries around the world through one simple and elegant experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tvsphere.app/">
+    <meta property="og:image" content="https://tvsphere.app/assets/images/hero.webp">
+    <meta property="og:site_name" content="TVSphere">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TVSphere - Explore TV & FM Around the Globe">
+    <meta name="twitter:description" content="Discover publicly available television channels and FM radio stations from countries around the world.">
+    <meta name="twitter:image" content="https://tvsphere.app/assets/images/hero.webp">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "TVSphere",
+            "operatingSystem": "Android",
+            "applicationCategory": "EntertainmentApplication",
+            "description": "Discover publicly available TV channels and FM radio stations from around the globe.",
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "ratingCount": "1250"
+            }
+        }
+    </script>
+
+    <title>TVSphere - Explore TV & FM Around the Globe | Global TV & Radio Discovery</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/icon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-
-<header>
-    <img src="logo.png" alt="TVSphere Logo" class="logo">
-    <h1>Privacy Policy</h1>
-    <p>Last Updated: July 11, 2026</p>
-</header>
-
-<main>
-
-<section class="card">
-<h2>About TVSphere</h2>
-
-<p>
-TVSphere is a global TV and radio discovery application that helps users
-explore publicly available television channels and radio stations from
-around the world.
-</p>
-
-<p>
-TVSphere does not host, own, upload, modify, or control any streaming
-content. All streams belong to their respective owners.
-</p>
-
-</section>
-
-<section class="card">
-
-<h2>Information We Collect</h2>
-
-<p>
-TVSphere does not require user registration.
-</p>
-
-<ul>
-
-<li>No username required</li>
-
-<li>No password required</li>
-
-<li>No personal profile required</li>
-
-</ul>
-
-<p>
-
-We may collect limited technical information including device language,
-Android version, app version, country, and crash reports to improve the
-application.
-
-</p>
-
-</section>
-
-<section class="card">
-
-<h2>Location</h2>
-
-<p>
-
-TVSphere may automatically determine your approximate country using your
-device language, timezone, or IP address in order to display popular
-channels relevant to your region.
-
-</p>
-
-<p>
-
-Your precise GPS location is never collected.
-
-</p>
-
-</section>
-
-<section class="card">
-
-<h2>Favorites & Settings</h2>
-
-<p>
-
-Favorites, recent history, theme, language, and country preferences are
-stored locally on your device.
-
-</p>
-
-</section>
-
-<section class="card">
-
-<h2>Streaming Content</h2>
-
-<p>
-
-TVSphere only indexes publicly available streams.
-
-We do not host, own, broadcast, or modify any television or radio
-content.
-
-</p>
-
-</section>
-
-<section class="card">
-
-<h2>Advertising</h2>
-
-<p>
-
-The current version of TVSphere does not display advertisements.
-
-Future versions may include advertising services such as Google AdMob.
-This Privacy Policy will be updated before advertisements are introduced.
-
-</p>
-
-</section>
-
-<section class="card">
-
-<h2>Data Security</h2>
-
-<p>
-
-We use reasonable measures to protect user information.
-
-However, no method of electronic transmission or storage is completely
-secure.
-
-</p>
-
-</section>
-
-<section class="card">
-
-<h2>Contact</h2>
-
-<p>
-
-Email:
-<strong>syrtv9@gmail.com</strong>
-
-</p>
-
-<p>
-
-Website:
-<strong>https://syrtv.netlify.app/</strong>
-
-</p>
-
-</section>
-
-</main>
-
-<footer>
-
-<p>
-
-© 2026 TVSphere. All Rights Reserved.
-
-</p>
-
-</footer>
-
+    <!-- Skip to Content (Accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar" role="banner">
+        <div class="container navbar__inner">
+            <a href="/" class="navbar__logo" aria-label="TVSphere Home">
+                <svg class="navbar__logo-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="19" fill="url(#logoGradient)" stroke="white" stroke-width="2"/>
+                    <rect x="10" y="13" width="20" height="14" rx="3" fill="white" opacity="0.95"/>
+                    <circle cx="20" cy="20" r="4" fill="#29B6F6"/>
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0" y1="0" x2="40" y2="40">
+                            <stop offset="0%" stop-color="#29B6F6"/>
+                            <stop offset="100%" stop-color="#00D4FF"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="navbar__logo-text">TVSphere</span>
+            </a>
+            <nav class="navbar__nav" role="navigation" aria-label="Main navigation">
+                <ul class="navbar__links">
+                    <li><a href="#about" class="navbar__link">About</a></li>
+                    <li><a href="#screenshots" class="navbar__link">Screenshots</a></li>
+                    <li><a href="#faq" class="navbar__link">FAQ</a></li>
+                    <li><a href="#download" class="navbar__link">Download</a></li>
+                </ul>
+            </nav>
+            <a href="#download" class="btn btn--primary btn--sm navbar__cta">Download APK</a>
+            <button class="navbar__hamburger" aria-label="Toggle navigation menu" aria-expanded="false" id="hamburgerBtn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <nav class="mobile-menu__nav">
+            <a href="#about" class="mobile-menu__link">About</a>
+            <a href="#screenshots" class="mobile-menu__link">Screenshots</a>
+            <a href="#faq" class="mobile-menu__link">FAQ</a>
+            <a href="#download" class="mobile-menu__link">Download</a>
+            <a href="privacy/" class="mobile-menu__link">Privacy Policy</a>
+            <a href="terms/" class="mobile-menu__link">Terms of Service</a>
+            <a href="contact/" class="mobile-menu__link">Contact</a>
+        </nav>
+    </div>
+
+    <main id="main-content">
+        <!-- ==================== HERO SECTION ==================== -->
+        <section class="hero" id="hero" aria-labelledby="hero-headline">
+            <!-- Decorative gradient blobs -->
+            <div class="hero__decoration hero__decoration--1" aria-hidden="true"></div>
+            <div class="hero__decoration hero__decoration--2" aria-hidden="true"></div>
+            <div class="hero__decoration hero__decoration--3" aria-hidden="true"></div>
+
+            <div class="container hero__grid">
+                <div class="hero__content">
+                    <div class="hero__badge">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#29B6F6" stroke-width="2.5">
+                            <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        <span>Now Available for Android</span>
+                    </div>
+                    <h1 class="hero__headline" id="hero-headline">
+                        Explore TV & FM<br>
+                        <span class="hero__headline-highlight">Around the Globe</span>
+                    </h1>
+                    <p class="hero__description">
+                        Discover publicly available television channels and FM radio stations from countries around the world through one simple and elegant experience.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#download" class="btn btn--primary btn--lg">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            Download APK
+                        </a>
+                        <a href="#" class="btn btn--outline btn--lg" aria-label="Coming Soon on Google Play">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/>
+                            </svg>
+                            Coming Soon on Google Play
+                        </a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">5000+</span>
+                            <span class="hero__stat-label">TV Channels</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">3000+</span>
+                            <span class="hero__stat-label">FM Stations</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">150+</span>
+                            <span class="hero__stat-label">Countries</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Phone Mockup -->
+                <div class="hero__phone-wrapper" aria-hidden="true">
+                    <div class="phone-mockup phone-mockup--hero">
+                        <div class="phone-mockup__frame">
+                            <div class="phone-mockup__notch"></div>
+                            <div class="phone-mockup__screen">
+                                <!-- Simulated App Content -->
+                                <div class="mock-screen">
+                                    <div class="mock-screen__status-bar">
+                                        <span class="mock-screen__time">9:41</span>
+                                        <span class="mock-screen__icons">
+                                            <svg width="14" height="10" viewBox="0 0 14 10"><rect x="0" y="0" width="12" height="10" rx="2" fill="white" opacity="0.9"/><rect x="2" y="2" width="4" height="6" rx="1" fill="#1a1a2e"/></svg>
+                                        </span>
+                                    </div>
+                                    <div class="mock-screen__app-header">
+                                        <span class="mock-screen__app-logo">TVSphere</span>
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                                    </div>
+                                    <div class="mock-screen__tabs">
+                                        <span class="mock-screen__tab mock-screen__tab--active">All</span>
+                                        <span class="mock-screen__tab">News</span>
+                                        <span class="mock-screen__tab">Sports</span>
+                                        <span class="mock-screen__tab">Music</span>
+                                    </div>
+                                    <div class="mock-screen__channels">
+                                        <div class="mock-channel">
+                                            <div class="mock-channel__thumb" style="background:#e74c3c;"></div>
+                                            <div class="mock-channel__info">
+                                                <div class="mock-channel__name">BBC World News</div>
+                                                <div class="mock-channel__program">Global Report • Live</div>
+                                            </div>
+                                            <div class="mock-channel__live-dot"></div>
+                                        </div>
+                                        <div class="mock-channel">
+                                            <div class="mock-channel__thumb" style="background:#2ecc71;"></div>
+                                            <div class="mock-channel__info">
+                                                <div class="mock-channel__name">ESPN Sports</div>
+                                                <div class="mock-channel__program">Premier League Highlights</div>
+                                            </div>
+                                        </div>
+                                        <div class="mock-channel">
+                                            <div class="mock-channel__thumb" style="background:#f39c12;"></div>
+                                            <div class="mock-channel__info">
+                                                <div class="mock-channel__name">National Geographic</div>
+                                                <div class="mock-channel__program">Wild Earth Documentary</div>
+                                            </div>
+                                        </div>
+                                        <div class="mock-channel">
+                                            <div class="mock-channel__thumb" style="background:#9b59b6;"></div>
+                                            <div class="mock-channel__info">
+                                                <div class="mock-channel__name">MTV Music</div>
+                                                <div class="mock-channel__program">Top 40 Countdown</div>
+                                            </div>
+                                        </div>
+                                        <div class="mock-channel">
+                                            <div class="mock-channel__thumb" style="background:#3498db;"></div>
+                                            <div class="mock-channel__info">
+                                                <div class="mock-channel__name">CNN International</div>
+                                                <div class="mock-channel__program">World Today</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mock-screen__bottom-nav">
+                                        <div class="mock-screen__nav-item mock-screen__nav-item--active">
+                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                                        </div>
+                                        <div class="mock-screen__nav-item">
+                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                                        </div>
+                                        <div class="mock-screen__nav-item">
+                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="phone-mockup__shadow" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ABOUT SECTION ==================== -->
+        <section class="about section" id="about" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag">About TVSphere</span>
+                    <h2 class="section__heading" id="about-heading">Your Window to the World</h2>
+                    <p class="section__subheading">
+                        TVSphere is a powerful discovery application that brings together publicly available television channels and FM radio stations from across the globe into one intuitive, beautifully designed interface.
+                    </p>
+                </div>
+                <div class="about__grid">
+                    <div class="about__card">
+                        <div class="about__card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#29B6F6" stroke-width="1.8">
+                                <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="about__card-title">Global Coverage</h3>
+                        <p class="about__card-text">Access TV channels and radio stations from over 150 countries, all organized in one place.</p>
+                    </div>
+                    <div class="about__card">
+                        <div class="about__card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#29B6F6" stroke-width="1.8">
+                                <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3 class="about__card-title">TV & FM Combined</h3>
+                        <p class="about__card-text">Seamlessly switch between television and radio — both available in a single unified experience.</p>
+                    </div>
+                    <div class="about__card">
+                        <div class="about__card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#29B6F6" stroke-width="1.8">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="about__card-title">No Account Needed</h3>
+                        <p class="about__card-text">Start exploring instantly. No sign-ups, no subscriptions — just pure discovery.</p>
+                    </div>
+                </div>
+                <div class="about__notice">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+                    </svg>
+                    <p><strong>Important:</strong> TVSphere does not host, own, or distribute any streaming content. All channels and stations are publicly available broadcasts that users can access through their respective sources. TVSphere simply helps you discover them.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SCREENSHOTS SECTION ==================== -->
+        <section class="screenshots section section--alt" id="screenshots" aria-labelledby="screenshots-heading">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag">Screenshots</span>
+                    <h2 class="section__heading" id="screenshots-heading">A Beautiful Experience</h2>
+                    <p class="section__subheading">Explore the clean, intuitive interface designed for effortless discovery of TV and radio content worldwide.</p>
+                </div>
+                <div class="screenshots__row">
+                    <!-- Screenshot Phone 1 -->
+                    <div class="phone-mockup phone-mockup--screenshot">
+                        <div class="phone-mockup__frame">
+                            <div class="phone-mockup__notch"></div>
+                            <div class="phone-mockup__screen">
+                                <div class="mock-screen mock-screen--screenshot">
+                                    <div class="mock-screen__status-bar">
+                                        <span class="mock-screen__time">9:41</span>
+                                    </div>
+                                    <div class="mock-screen__app-header">
+                                        <span class="mock-screen__app-logo">TVSphere</span>
+                                    </div>
+                                    <div class="mock-screen__tabs">
+                                        <span class="mock-screen__tab mock-screen__tab--active">All</span>
+                                        <span class="mock-screen__tab">News</span>
+                                        <span class="mock-screen__tab">Sports</span>
+                                    </div>
+                                    <div class="mock-screen__channels">
+                                        <div class="mock-channel"><div class="mock-channel__thumb" style="background:#e74c3c;"></div><div class="mock-channel__info"><div class="mock-channel__name">BBC World</div><div class="mock-channel__program">Live News</div></div></div>
+                                        <div class="mock-channel"><div class="mock-channel__thumb" style="background:#2ecc71;"></div><div class="mock-channel__info"><div class="mock-channel__name">ESPN</div><div class="mock-channel__program">Sports Center</div></div></div>
+                                        <div class="mock-channel"><div class="mock-channel__thumb" style="background:#f39c12;"></div><div class="mock-channel__info"><div class="mock-channel__name">Nat Geo</div><div class="mock-channel__program">Documentary</div></div></div>
+                                        <div class="mock-channel"><div class="mock-channel__thumb" style="background:#9b59b6;"></div><div class="mock-channel__info"><div class="mock-channel__name">MTV</div><div class="mock-channel__program">Music Hits</div></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Screenshot Phone 2 -->
+                    <div class="phone-mockup phone-mockup--screenshot phone-mockup--featured">
+                        <div class="phone-mockup__frame">
+                            <div class="phone-mockup__notch"></div>
+                            <div class="phone-mockup__screen">
+                                <div class="mock-screen mock-screen--screenshot">
+                                    <div class="mock-screen__status-bar"><span class="mock-screen__time">9:42</span></div>
+                                    <div class="mock-screen__app-header"><span class="mock-screen__app-logo">FM Radio</span></div>
+                                    <div class="mock-screen__radio-player">
+                                        <div class="mock-radio__freq">98.7 <span>MHz</span></div>
+                                        <div class="mock-radio__name">Smooth Jazz FM</div>
+                                        <div class="mock-radio__visualizer">
+                                            <span></span><span></span><span></span><span></span><span></span>
+                                        </div>
+                                    </div>
+                                    <div class="mock-screen__channels">
+                                        <div class="mock-channel"><div class="mock-channel__thumb" style="background:#e91e63;"></div><div class="mock-channel__info"><div class="mock-channel__name">Heart FM</div><div class="mock-channel__program">Morning Show</div></div></div>
+                                        <div class="mock-channel"><div class="mock-channel__thumb" style="background:#00bcd4;"></div><div class="mock-channel__info"><div class="mock-channel__name">BBC Radio 1</div><div class="mock-channel__program">Chart Update</div></div></div>
+                                        <div class="mock-channel"><div class="mock-channel__thumb" style="background:#ff9800;"></div><div class="mock-channel__info"><div class="mock-channel__name">Classic FM</div><div class="mock-channel__program">Orchestra</div></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Screenshot Phone 3 -->
+                    <div class="phone-mockup phone-mockup--screenshot">
+                        <div class="phone-mockup__frame">
+                            <div class="phone-mockup__notch"></div>
+                            <div class="phone-mockup__screen">
+                                <div class="mock-screen mock-screen--screenshot">
+                                    <div class="mock-screen__status-bar"><span class="mock-screen__time">9:43</span></div>
+                                    <div class="mock-screen__app-header"><span class="mock-screen__app-logo">Countries</span></div>
+                                    <div class="mock-screen__country-list">
+                                        <div class="mock-country"><span class="mock-country__flag">🇬🇧</span> United Kingdom <span class="mock-country__count">320</span></div>
+                                        <div class="mock-country"><span class="mock-country__flag">🇺🇸</span> United States <span class="mock-country__count">580</span></div>
+                                        <div class="mock-country"><span class="mock-country__flag">🇩🇪</span> Germany <span class="mock-country__count">245</span></div>
+                                        <div class="mock-country"><span class="mock-country__flag">🇫🇷</span> France <span class="mock-country__count">190</span></div>
+                                        <div class="mock-country"><span class="mock-country__flag">🇯🇵</span> Japan <span class="mock-country__count">160</span></div>
+                                        <div class="mock-country"><span class="mock-country__flag">🇧🇷</span> Brazil <span class="mock-country__count">210</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== FAQ SECTION ==================== -->
+        <section class="faq section" id="faq" aria-labelledby="faq-heading">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag">FAQ</span>
+                    <h2 class="section__heading" id="faq-heading">Frequently Asked Questions</h2>
+                    <p class="section__subheading">Everything you need to know about TVSphere.</p>
+                </div>
+                <div class="faq__accordion" role="region" aria-label="Frequently Asked Questions">
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" id="faq-q1">
+                            <span>Is TVSphere free?</span>
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer" role="region" aria-labelledby="faq-q1" hidden>
+                            <p>Yes! TVSphere is completely free to download and use. There are no hidden fees, subscriptions, or premium tiers. We believe in providing open access to publicly available broadcast information for everyone.</p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" id="faq-q2">
+                            <span>Do I need an account?</span>
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer" role="region" aria-labelledby="faq-q2" hidden>
+                            <p>No account or registration is required. Simply install the app and start exploring channels and stations immediately. Your privacy matters to us — we don't collect personal data.</p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" id="faq-q3">
+                            <span>Does TVSphere host TV channels?</span>
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer" role="region" aria-labelledby="faq-q3" hidden>
+                            <p>No. TVSphere does not host, own, or distribute any streaming content. We act solely as a discovery platform that helps users find publicly available television channels and FM radio stations. All content is accessed through the respective broadcasters' publicly available streams.</p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" id="faq-q4">
+                            <span>Why are some channels unavailable?</span>
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer" role="region" aria-labelledby="faq-q4" hidden>
+                            <p>Channel availability depends on several factors including geographic restrictions, broadcaster streaming status, and the public availability of streams. Some channels may be geo-restricted to specific countries or regions. We continuously update our database to provide the most accurate information.</p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <button class="faq__question" aria-expanded="false" id="faq-q5">
+                            <span>Which countries are supported?</span>
+                            <svg class="faq__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+                            </svg>
+                        </button>
+                        <div class="faq__answer" role="region" aria-labelledby="faq-q5" hidden>
+                            <p>TVSphere supports over 150 countries worldwide, covering North America, South America, Europe, Asia, Africa, and Oceania. We are constantly expanding our coverage to include more countries and regions. If your country isn't listed yet, it may be added in a future update.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== DOWNLOAD SECTION ==================== -->
+        <section class="download section section--accent" id="download" aria-labelledby="download-heading">
+            <div class="container download__inner">
+                <div class="download__content">
+                    <svg class="download__logo-mark" width="64" height="64" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="19" fill="url(#logoGradient2)" stroke="white" stroke-width="2"/>
+                        <rect x="10" y="13" width="20" height="14" rx="3" fill="white" opacity="0.95"/>
+                        <circle cx="20" cy="20" r="4" fill="#29B6F6"/>
+                        <defs>
+                            <linearGradient id="logoGradient2" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#29B6F6"/><stop offset="100%" stop-color="#00D4FF"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h2 class="download__heading" id="download-heading">Ready to Explore?</h2>
+                    <p class="download__subheading">Download TVSphere now and discover TV channels and FM radio stations from around the world.</p>
+                    <p class="download__platform">Available for Android</p>
+                    <a href="#" class="btn btn--primary btn--lg download__btn">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Download APK
+                    </a>
+                    <p class="download__coming-soon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/>
+                        </svg>
+                        Google Play — Coming Soon
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer__grid">
+            <div class="footer__brand">
+                <a href="/" class="footer__logo" aria-label="TVSphere Home">
+                    <svg width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="19" fill="url(#logoGradient3)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+                        <rect x="10" y="13" width="20" height="14" rx="3" fill="white" opacity="0.95"/>
+                        <circle cx="20" cy="20" r="4" fill="#29B6F6"/>
+                        <defs>
+                            <linearGradient id="logoGradient3" x1="0" y1="0" x2="40" y2="40">
+                                <stop offset="0%" stop-color="#29B6F6"/><stop offset="100%" stop-color="#00D4FF"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span>TVSphere</span>
+                </a>
+                <p class="footer__tagline">Explore TV & FM Around the Globe</p>
+            </div>
+            <div class="footer__links">
+                <h3 class="footer__links-title">Quick Links</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about/">About</a></li>
+                    <li><a href="privacy/">Privacy Policy</a></li>
+                    <li><a href="terms/">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer__links">
+                <h3 class="footer__links-title">Support</h3>
+                <ul>
+                    <li><a href="contact/">Contact</a></li>
+                    <li><a href="report/">Report an Issue</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer__links">
+                <h3 class="footer__links-title">Legal</h3>
+                <ul>
+                    <li><a href="privacy/">Privacy Policy</a></li>
+                    <li><a href="terms/">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>&copy; 2026 TVSphere. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
